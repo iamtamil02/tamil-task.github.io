@@ -1,0 +1,368 @@
+	#top{
+		color:white;
+		background-color:#0f1626;
+		padding: 10px 0;
+	    z-index: 12;
+		width: 100%;
+		position: fixed; 
+	}
+	#top a{
+		color: white;
+	}
+	#brand{
+		font-size: 30px;
+		font-family: 'Merienda',cursive;
+		color: white;
+		text-decoration: none;
+	}
+
+	.active a{
+		color:#ff553d !important; 
+
+	}
+	.nav>li>a:focus, .nav>li>a:hover {
+	    text-decoration: none;
+	    background: none;
+	    border-bottom-color: #ff553d; 
+	}
+	.nav li:hover {
+		border-bottom-color: green: 
+
+	}
+	.home{
+		background: #ff553d;
+		padding-top: 70px;
+		color: white;
+		height: auto;
+	}
+	#homerow{
+		padding-bottom: 20%;
+	}
+	#homeleft{
+		padding-top: 15px;
+		font-size: 25px;
+	}
+	#homeleft h1{
+	 font-family: 'Vollkorn SC', serif;
+	}
+	#story{
+		padding-top: 25px;
+		font-size: 24px;
+		font-family: cursive;
+	}
+	#homeright{
+		text-align: center;
+	}
+	.but1{
+		width: 44%;
+	    height: 47%;
+	    padding: 14px;
+	    border-radius: 12px;
+	    border-color: #262a34;
+	    font-size: 24px;
+	    text-transform: uppercase;
+	    background-color: #262a34;
+	    float: right;
+	}
+	.endcloud{
+		width: 100%;
+		margin-top: -10%;
+		position: absolute;
+	}
+	#gallery{
+		background: #262a34;
+		height: auto;
+		
+	}
+	#icround{
+		padding-top: 130px;
+		padding-left: 140px;
+	}
+	.ic{
+		border: 3px solid;
+	    border-radius: 50%;
+	    display: table;
+	    margin: 0 auto;
+	    width: 90px;
+	    height: 90px;
+	    color: #f7ce3f;
+	    background: #f7ce3f;
+	}
+	#faid{
+		font-size: 48px;
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+		color: #ff553d;
+	}.wrapper {
+	  display: flex;
+	  padding-left: 19%;
+	  padding-top: 8%;
+	  padding-bottom: 4%;
+	}
+	.left, .right {
+	 width: 25%;
+	 padding: 25px;
+	 text-align: center;
+	 color: white;
+	 font-size: 20px;
+	 border: 2px solid white;
+	}
+
+	.left {
+	  flex-basis: calc(35% - 25px);
+	  position: relative;
+	  background:#ff553d;
+	  display: flex;
+	  align-items: center;
+	}
+	.left::after {
+	  content: '';
+	  position: absolute;
+	  top: 0;
+	  left: 100%;
+	  height: 0;
+	  width: 0;
+	  border-top: 78px solid #262a34 ;
+	  border-right: 50px solid transparent;
+	  border-left: 40px solid #ff553d;
+	  border-bottom: 0px solid;
+	}
+	.right {
+	  flex-basis: calc(35% + 25px);
+	  background:#262a34;
+	  
+	}
+
+	#count{
+		padding-top: 20px;
+	}
+	#places{
+		width: 100%;
+		height: auto;
+	}
+	#days{
+		width: 23%;
+	    text-align: center;
+	    font-size: 24px;
+	    padding: 2px;
+	    color: white;
+	    background: #ff553d;
+	}
+	#name{
+		    font-size: 26px;
+	       margin: 3px;
+	    color: white;
+	}
+	#placeinfo{
+		padding-top: 20px;
+	}
+	#placepic{
+		width: 85%;
+	}
+	#plan{
+		color: white;
+		font-size: 25px;
+		text-align: left;
+	}
+	#review{
+		text-align: center;
+		padding-top: 10%;
+		padding-bottom: 10%;
+
+	}
+	#lastbut{
+		background: #262a34;
+		color: white;
+		width: 30%;
+		padding: 11px;
+		font-size: 28px;
+	}
+	.reviewsec{
+		background: #262a34;
+		width: 100%;
+		height: auto; 
+	}
+	.review1{
+		
+		color: white;
+		padding-bottom: 10%;
+		padding-bottom: 10%;
+	}
+	.review1 img{
+		float: left;
+	}
+	footer{
+		padding: 1%;
+		color: white;
+		background: #ff553d;
+	}
+	.footleft{
+		width: 30%;
+		float: left;
+	}
+	footer ul{
+		list-style: none;
+	}
+	footer ul li a{
+		color: white;
+		text-decoration: none;
+	}
+	footer ul li a:hover{
+		text-decoration: none;
+		color: white;
+	}
+	.footright{
+		
+		float: right;
+	}
+	footer .fa  {
+	  padding: 12px;
+	  font-size: 18px;
+	  
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	  border-radius:70%;
+	  display: inline-table;
+	}
+
+	footer.fa:hover {
+	    opacity: 0.8;
+	}
+	.fa-facebook {
+	  background: #0f1626;
+	  color: white;
+	}
+
+	.fa-twitter {
+	  background:#0f1626;
+	  color: white;
+	}
+
+	.fa-google {
+	  background:#0f1626;
+	  color: white;
+	}
+
+	.fa-linkedin {
+	  background:#0f1626;
+	  color: white;
+	}
+	.footright p{
+	  font-size: 7px;
+	  text-align: right;
+	}
+	@media (min-width: 300px) and (max-width: 1024px)
+	{   
+		#brand{
+			width: 80%;
+			float: left;
+			font-size: 20px;
+		}
+	    #corbut{
+		background-color: #0f1626;	
+
+		position: relative;
+	    
+	    z-index: 12;
+		
+		border: 2px solid white;
+	    }
+		 #corbut span{
+		
+		background-color: white;
+	    }
+
+	    .navar-header{
+	    	float: left;
+	    }
+
+	    .but1{
+	        
+	    font-size: 17px;
+	    float: initial;
+	    width: 55%;
+	    
+	       
+	    }
+	    #homeleft h1{
+	    	font-size: 30px;
+	    }
+	    #story{
+	    	font-size: 16px;
+	    }
+	    #homerow{
+	    	padding-bottom: 65px;
+	    }
+	    #icround{
+	    	padding-left: 0;
+	    	padding-top: 55px;
+	    }
+	    .col-md-2{
+	    	width: 50%;
+	    	float: left;
+	    }
+	    #last{
+	    	width: 100%;
+	    }
+	    .wrapper{
+	    	width: 100%;
+	    	display: flex;
+	    	padding-left: 0;
+	    	justify-content: center;
+	    }
+	    .left{
+	    	width: 50%;
+	    	padding: 0;
+	    }
+	    .right{
+	    	width: 50%;
+	    	padding: 0;
+	    }
+	    .left::after{
+	    	display: none;
+	    }
+	    #places{
+	    	padding-top: 30%;
+	    }
+	    #days{
+	      width: 30%;
+	      padding: 0;
+	      font-size: 25px;
+	    }
+	    #name{
+	    	font-size: 20px;
+	    	margin-left: 10px;
+		    	padding: 0;
+		    }
+		    #plan{
+		    	text-align: left;
+		    	font-size: 20px;
+		    }
+		    #review{
+		    	padding-top: 10%;
+		    }
+		    #lastbut{
+		    	width: 50%;
+		    }
+		    .review1{
+		    	display: block;
+		    	padding-top: 10%;
+		    	padding-bottom: 10%;
+
+		    }
+		    .footleft{
+		    	width: 100%;
+		    }
+		    .footleft ul{
+		    	padding: 0;
+		    }
+		    .footright{
+		    	width: 100%;
+		    }
+		    .footright p{
+		    	text-align: left;
+		    }
+
+	}
